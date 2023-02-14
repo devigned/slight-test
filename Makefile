@@ -13,4 +13,4 @@ docker-build: build
 
 .PHONY: docker-run
 docker-run: docker-build
-	docker run --runtime=io.containerd.slight.v1 -p 80:80 slight-test
+	docker run --runtime=io.containerd.slight.v1 -p 80:80 docker.io/library/slight-test
